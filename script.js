@@ -8,7 +8,7 @@ sForm.lastElementChild.addEventListener('click', function(e){
     var balls;
     $.ajax({
       method: 'GET',
-      url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=8202edb6eac06c7137501d0d4499c5e6'
+      url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=8202edb6eac06c7137501d0d4499c5e6'
     })
     .done(function(data) {
       //console.log(data.name);
